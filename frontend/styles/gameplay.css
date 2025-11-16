@@ -1,0 +1,356 @@
+/* ======================
+   Mechanics Section
+   ====================== */
+.mechanics-section {
+    padding: var(--spacing-3xl) 0;
+}
+
+.mechanics-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-xl);
+}
+
+.mechanic-card {
+    padding: var(--spacing-xl);
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius-xl);
+    position: relative;
+    transition: all var(--transition-base);
+}
+
+.mechanic-card:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: var(--primary);
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4), var(--glow-primary);
+}
+
+.mechanic-number {
+    position: absolute;
+    top: var(--spacing-lg);
+    right: var(--spacing-lg);
+    font-family: var(--font-display);
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgba(0, 212, 255, 0.1);
+    line-height: 1;
+}
+
+.mechanic-title {
+    font-family: var(--font-display);
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: var(--spacing-md);
+    position: relative;
+    z-index: 1;
+}
+
+.mechanic-description {
+    font-size: 1.0625rem;
+    color: var(--gray-300);
+    line-height: 1.7;
+    margin-bottom: var(--spacing-md);
+}
+
+.mechanic-list {
+    list-style: none;
+}
+
+.mechanic-list li {
+    padding: 0.5rem 0 0.5rem 1.75rem;
+    font-size: 1rem;
+    color: var(--gray-300);
+    position: relative;
+}
+
+.mechanic-list li::before {
+    content: '▸';
+    position: absolute;
+    left: 0;
+    color: var(--primary);
+    font-size: 0.875rem;
+}
+
+/* ======================
+   Game Modes Section
+   ====================== */
+.game-modes-section {
+    padding: var(--spacing-3xl) 0;
+    background: linear-gradient(180deg, var(--dark-900) 0%, var(--dark-800) 100%);
+}
+
+.modes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-lg);
+}
+
+.mode-card {
+    padding: var(--spacing-xl);
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius-xl);
+    text-align: center;
+    transition: all var(--transition-base);
+}
+
+.mode-card:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: var(--primary);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 212, 255, 0.2);
+}
+
+.mode-icon {
+    font-size: 4rem;
+    margin-bottom: var(--spacing-md);
+}
+
+.mode-title {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: var(--spacing-sm);
+}
+
+.mode-description {
+    font-size: 1.0625rem;
+    color: var(--gray-300);
+    line-height: 1.7;
+    margin-bottom: var(--spacing-md);
+}
+
+.mode-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-md);
+    padding-top: var(--spacing-md);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.mode-detail {
+    padding: 0.375rem 0.875rem;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: var(--primary);
+    background: rgba(0, 212, 255, 0.1);
+    border: 1px solid rgba(0, 212, 255, 0.2);
+    border-radius: var(--radius-md);
+}
+
+/* ======================
+   Maps Section
+   ====================== */
+.maps-section {
+    padding: var(--spacing-3xl) 0;
+}
+
+.maps-showcase {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-xl);
+}
+
+.map-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-xl);
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius-xl);
+    overflow: hidden;
+    transition: all var(--transition-base);
+}
+
+.map-card:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: var(--primary);
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4), var(--glow-primary);
+}
+
+.map-image {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    transition: transform var(--transition-slow);
+}
+
+.map-card:hover .map-image {
+    transform: scale(1.05);
+}
+
+.map-info {
+    padding: var(--spacing-xl);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.map-name {
+    font-family: var(--font-display);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: var(--spacing-md);
+}
+
+.map-description {
+    font-size: 1.0625rem;
+    color: var(--gray-300);
+    line-height: 1.7;
+    margin-bottom: var(--spacing-md);
+}
+
+.map-modes {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.map-mode {
+    padding: 0.375rem 0.875rem;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: var(--primary);
+    background: rgba(0, 212, 255, 0.1);
+    border: 1px solid rgba(0, 212, 255, 0.2);
+    border-radius: var(--radius-md);
+}
+
+/* ======================
+   Progression Section
+   ====================== */
+.progression-section {
+    padding: var(--spacing-3xl) 0;
+    background: linear-gradient(180deg, var(--dark-800) 0%, var(--dark-900) 100%);
+}
+
+.progression-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-lg);
+}
+
+.progression-card {
+    padding: var(--spacing-xl);
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius-xl);
+    transition: all var(--transition-base);
+}
+
+.progression-card:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: var(--primary);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 212, 255, 0.2);
+}
+
+.progression-icon {
+    font-size: 3rem;
+    margin-bottom: var(--spacing-md);
+}
+
+.progression-title {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: var(--spacing-sm);
+}
+
+.progression-description {
+    font-size: 1.0625rem;
+    color: var(--gray-300);
+    line-height: 1.7;
+}
+
+/* ======================
+   Tips Section
+   ====================== */
+.tips-section {
+    padding: var(--spacing-3xl) 0;
+}
+
+.tips-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-lg);
+}
+
+.tip-card {
+    padding: var(--spacing-lg);
+    background: rgba(245, 158, 11, 0.05);
+    border: 1px solid rgba(245, 158, 11, 0.2);
+    border-radius: var(--radius-xl);
+    display: flex;
+    gap: var(--spacing-md);
+    transition: all var(--transition-base);
+}
+
+.tip-card:hover {
+    background: rgba(245, 158, 11, 0.1);
+    border-color: var(--accent);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(245, 158, 11, 0.2);
+}
+
+.tip-number {
+    font-size: 2rem;
+    flex-shrink: 0;
+}
+
+.tip-title {
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 0.5rem;
+}
+
+.tip-description {
+    font-size: 1rem;
+    color: var(--gray-300);
+    line-height: 1.7;
+}
+
+/* ======================
+   Responsive Design
+   ====================== */
+@media (max-width: 1024px) {
+    .mechanics-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .modes-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .map-card {
+        grid-template-columns: 1fr;
+    }
+
+    .progression-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .modes-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .map-image {
+        height: 250px;
+    }
+
+    .tips-grid {
+        grid-template-columns: 1fr;
+    }
+}

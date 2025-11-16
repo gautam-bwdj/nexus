@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Heroes - Nexus | Choose Your Legend</title>
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/heroes.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <span class="logo-icon">⬢</span>
+                    <span class="logo-text">NEXUS</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="heroes.html" class="active">Heroes</a></li>
+                    <li><a href="gameplay.html">Gameplay</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+                <a href="#download" class="btn-primary">Play Now</a>
+            </div>
+        </nav>
+
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="page-header-background"></div>
+            <div class="container">
+                <span class="page-badge">24 Unique Heroes</span>
+                <h1 class="page-title">Choose Your Legend</h1>
+                <p class="page-subtitle">Master unique abilities and playstyles. Every hero offers a different path to
+                    victory.</p>
+            </div>
+        </section>
+
+        <!-- Hero Filters -->
+        <section class="hero-filters">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active">All Heroes</button>
+                    <button class="filter-btn">Assault</button>
+                    <button class="filter-btn">Tank</button>
+                    <button class="filter-btn">Support</button>
+                    <button class="filter-btn">Duelist</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Heroes Grid -->
+        <section class="heroes-section">
+            <div class="container">
+                <div class="heroes-grid">
+                    <!-- Hero Card 1 -->
+                    <div class="hero-card">
+                        <div class="hero-card-image"
+                            style="background-image: url('https://images.unsplash.com/photo-1759701547646-acb29362adf6');">
+                        </div>
+                        <div class="hero-card-content">
+                            <div class="hero-card-role assault">Assault</div>
+                            <h3 class="hero-card-name">Vanguard</h3>
+                            <p class="hero-card-description">Elite tactical soldier equipped with advanced weaponry.
+                                Excels in medium-range combat and battlefield control.</p>
+                            <div class="hero-card-abilities">
+                                <div class="ability-tag">Tactical Strike</div>
+                                <div class="ability-tag">Shield Burst</div>
+                                <div class="ability-tag">Combat Roll</div>
+                            </div>
+                            <div class="hero-card-stats">
+                                <div class="stat-bar">
+                                    <span class="stat-label">Damage</span>
+                                    <div class="stat-fill" style="width: 85%;"></div>
+                                </div>
+                                <div class="stat-bar">
+                                    <span class="stat-label">Mobility</span>
+                                    <div class="stat-fill" style="width: 65%;"></div>
+                                </div>
+                                <div class="stat-bar">
+                                    <span class="stat-label">Survivability</span>
+                                    <div class="stat-fill" style="width: 60%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Hero Card 2 -->
+                    <div class="hero-card">
+                        <div class="hero-card-image"
+                            style="background-image: url('https://images.unsplash.com/photo-1656381620321-bddff61435c3');">
+                        </div>
+                        <div class="hero-card-content">
+                            <div class="hero-card-role tank">Tank</div>
+                            <h3 class="hero-card-name">Titan</h3>
+                            <p class="hero-card-description">Heavily armored guardian with massive shield capabilities.
+                                Protects teammates and controls the front line.</p>
+                            <div class="hero-card-abilities">
+                                <div class="ability-tag">Energy Barrier</div>
+                                <div class="ability-tag">Ground Slam</div>
+                                <div class="ability-tag">Fortify</div>
+                            </div>
+                            <div class="hero-card-stats">
+                                <div class="stat-bar">
+                                    <span class="stat-label">Damage</span>
+                                    <div class="stat-fill" style="width: 55%;"></div>
+                                </div>
+                                <div class="stat-bar">
+                                    <span class="stat-label">Mobility</span>
+                                    <div class="stat-fill" style="width: 40%;"></div>
+                                </div>
+                                <div class="stat-bar">
+                                    <span class="stat-label">Survivability</span>
+                                    <div class="stat-fill" style="width: 95%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Hero Card 3 -->
+                    <div class="hero-card">
+                        <div class="hero-card-image"
+                            style="background-image: url('https://images.unsplash.com/photo-1645251024808-b7928e268834');">
+                        </div>
+                        <div class="hero-card-content">
+                            <div class="hero-card-role duelist">Duelist</div>
+                            <h3 class="hero-card-name">Phantom</h3>
+                            <p class="hero-card-description">Swift assassin who strikes from the shadows. High damage
+                                output with exceptional mobility and stealth.</p>
+                            <div class="hero-card-abilities">
+                                <div class="ability-tag">Shadow Step</div>
+                                <div class="ability-tag">Blade Storm</div>
+                                <div class="ability-tag">Vanish</div>
+                            </div>
+                            <div class="hero-card-stats">
+                                <div class="stat-bar">
+                                    <span class="stat-label">Damage</span>
+                                    <div class="stat-fill" style="width: 90%;"></div>
+                                </div>
+                                <div class="stat-bar">
+                                    <span class="stat-label">Mobility</span>
+                                    <div class="stat-fill" style="width: 95%;"></div>
+                                </div>
+                                <div class="stat-bar">
+                                    <span class="stat-label">Survivability</span>
+                                    <div class="stat-fill" style="width: 45%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Hero Card 4 -->
+                    <div class="hero-card">
+                        <div class="hero-card-image"
+                            style="background-image: url('https://images.pexels.com/photos/23232336/pexels-photo-23232336.jpeg');">
+                        </div>
+                        <div class="hero-card-content">
+                            <div class="hero-card-role assault">Assault</div>
+                            <h3 class="hero-card-name">Reaper</h3>
+                            <p class="hero-card-description">Dark warrior wielding dual weapons. Dominates
+                                close-quarters combat with relentless aggression.</p>
+                            <div class="hero-card-abilities">
+                                <div class="ability-tag">Death Blossom</div>
+                                <div class="ability-tag">Wraith Form</div>
+                                <div class="ability-tag">Shadow Strike</div>
+                            </div>
+                            <div class="hero-card-stats">
+                                <div class="stat-bar">
+                                    <span class="stat-label">Damage</span>
+                                    <div class="stat-fill" style="width: 88%;"></div>
+                                </div>
+                                <div class="stat-bar">
+                                    <span class="stat-label">Mobility</span>
+                                    <div class="stat-fill" style="width: 70%;"></div>
+                                </div>
+                                <div class="stat-bar">
+                                    <span class="stat-label">Survivability</span>
+                                    <div class="stat-fill" style="width: 55%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Hero Card 5 -->
+                    <div class="hero-card">
+                        <div class="hero-card-image"
+                            style="background-image: url('https://images.pexels.com/photos/4485813/pexels-photo-4485813.jpeg');">
+                        </div>
+                        <div class="hero-card-content">
+                            <div class="hero-card-role support">Support</div>
+                            <h3 class="hero-card-name">Nexus</h3>
+                            <p class="hero-card-description">Cybernetic healer with advanced tech. Restores health and
+                                provides crucial battlefield support to allies.</p>
+                            <div class="hero-card-abilities">
+                                <div class="ability-tag">Healing Pulse</div>
+                                <div class="ability-tag">Shield Matrix</div>
+                                <div class="ability-tag">Resurrection</div>
+                            </div>
+                            <div class="hero-card-stats">
+                                <div class="stat-bar">
+                                    <span class="stat-label">Damage</span>
+                                    <div class="stat-fill" style="width: 45%;"></div>
+                                </div>
+                                <div class="stat-bar">
+                                    <span class="stat-label">Mobility</span>
+                                    <div class="stat-fill" style="width: 60%;"></div>
+                                </div>
+                                <div class="stat-bar">
+                                    <span class="stat-label">Support</span>
+                                    <div class="stat-fill" style="width: 95%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Hero Card 6 -->
+                    <div class="hero-card">
+                        <div class="hero-card-image"
+                            style="background-image: url('https://images.pexels.com/photos/8718387/pexels-photo-8718387.jpeg');">
+                        </div>
+                        <div class="hero-card-content">
+                            <div class="hero-card-role tank">Tank</div>
+                            <h3 class="hero-card-name">Guardian</h3>
+                            <p class="hero-card-description">Futuristic defender with energy shields. Creates safe zones
+                                and absorbs damage to protect the team.</p>
+                            <div class="hero-card-abilities">
+                                <div class="ability-tag">Barrier Field</div>
+                                <div class="ability-tag">Knockback</div>
+                                <div class="ability-tag">Energy Dome</div>
+                            </div>
+                            <div class="hero-card-stats">
+                                <div class="stat-bar">
+                                    <span class="stat-label">Damage</span>
+                                    <div class="stat-fill" style="width: 50%;"></div>
+                                </div>
+                                <div class="stat-bar">
+                                    <span class="stat-label">Mobility</span>
+                                    <div class="stat-fill" style="width: 45%;"></div>
+                                </div>
+                                <div class="stat-bar">
+                                    <span class="stat-label">Survivability</span>
+                                    <div class="stat-fill" style="width: 92%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hero Roles Info -->
+        <section class="roles-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge">Hero Roles</span>
+                    <h2 class="section-title">Understanding The Roles</h2>
+                    <p class="section-subtitle">Each role brings unique strengths to your team composition.</p>
+                </div>
+                <div class="roles-grid">
+                    <div class="role-card">
+                        <div class="role-icon assault-icon">⚔️</div>
+                        <h3 class="role-title">Assault</h3>
+                        <p class="role-description">Frontline damage dealers who engage enemies and secure eliminations.
+                            High damage output with moderate survivability.</p>
+                    </div>
+                    <div class="role-card">
+                        <div class="role-icon tank-icon">🛡️</div>
+                        <h3 class="role-title">Tank</h3>
+                        <p class="role-description">Heavily armored protectors who absorb damage and create space for
+                            their team. Essential for controlling objectives.</p>
+                    </div>
+                    <div class="role-card">
+                        <div class="role-icon duelist-icon">⚡</div>
+                        <h3 class="role-title">Duelist</h3>
+                        <p class="role-description">High mobility assassins who flank enemies and eliminate key targets.
+                            Require precision and positioning mastery.</p>
+                    </div>
+                    <div class="role-card">
+                        <div class="role-icon support-icon">💚</div>
+                        <h3 class="role-title">Support</h3>
+                        <p class="role-description">Essential healers and buffers who keep teammates alive and enhance
+                            their capabilities in battle.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-top">
+                    <div class="footer-section">
+                        <div class="footer-logo">
+                            <span class="logo-icon">⬢</span>
+                            <span class="logo-text">NEXUS</span>
+                        </div>
+                        <p class="footer-desc">Experience the future of hero-based combat. Join millions of players in
+                            the ultimate battle arena.</p>
+                    </div>
+                    <div class="footer-section">
+                        <h4 class="footer-heading">Game</h4>
+                        <ul class="footer-links">
+                            <li><a href="heroes.html">Heroes</a></li>
+                            <li><a href="gameplay.html">Gameplay</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="#">Updates</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4 class="footer-heading">Community</h4>
+                        <ul class="footer-links">
+                            <li><a href="#">Forums</a></li>
+                            <li><a href="#">Discord</a></li>
+                            <li><a href="#">Esports</a></li>
+                            <li><a href="#">Leaderboards</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4 class="footer-heading">Support</h4>
+                        <ul class="footer-links">
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="#">Help Center</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p class="footer-copyright">&copy; 2024 Nexus. All rights reserved. Capstone Project - SNW Subject
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">YouTube</a>
+                        <a href="#" class="social-link">Twitch</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+</html>
