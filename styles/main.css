@@ -165,3 +165,22 @@ button {
 .nav-menu a.active {
     color: var(--primary-color);
 }
+
+
+.btn-primary {
+    display: inline-block;
+    padding: 0.75rem 1.75rem;
+    font-family: var(--font-heading);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: var(--dark-900);
+    background: var(--gradient-primary);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md), var(--glow-primary);
+    transition: all var(--transition-base);
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg), 0 0 30px rgba(0, 212, 255, 0.5);
+}
