@@ -271,3 +271,31 @@ button {
 .social-link:hover {
     color: var(--primary);
 }
+
+
+@media (max-width: 1024px) {
+    .nav-menu {
+        gap: var(--spacing-md);
+    }
+
+    .footer-top {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--spacing-lg);
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+    }
+
+    .footer-top {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        gap: var(--spacing-md);
+        text-align: center;
+    }
+}
