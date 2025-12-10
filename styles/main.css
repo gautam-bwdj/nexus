@@ -9,4 +9,15 @@
     --success: #10b981;
     --warning: #f59e0b;
     --error: #ef4444;
+
+    --dark-900: #0a0a0f;
+    --dark-800: #121218;
+    --dark-700: #1a1a24;
+    --dark-600: #252530;
+    --dark-500: #33333f;
+    --gray-400: #71717a;
+    --gray-300: #a1a1aa;
+    --gray-200: #d4d4d8;
+    --gray-100: #f4f4f5;
+    --white: #ffffff;
 }
