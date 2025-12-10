@@ -163,7 +163,7 @@ button {
 
 .nav-menu a:hover,
 .nav-menu a.active {
-    color: var(--primary-color);
+    color: var(--primary);
 }
 
 
