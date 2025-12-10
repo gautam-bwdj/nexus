@@ -24,4 +24,12 @@
     --gradient-primary: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
     --gradient-secondary: linear-gradient(135deg, var(--secondary) 0%, #6d28d9 100%);
     --gradient-accent: linear-gradient(135deg, var(--accent) 0%, #d97706 100%);
+
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+    --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
+    --shadow-xl: 0 12px 36px rgba(0, 0, 0, 0.6);
+    --glow-primary: 0 0 15px rgba(0, 212, 255, 0.6);
+    --glow-secondary: 0 0 15px rgba(139, 92, 246, 0.6);
+    --glow-accent: 0 0 15px rgba(245, 158, 11, 0.6);
 }
