@@ -32,4 +32,7 @@
     --glow-primary: 0 0 15px rgba(0, 212, 255, 0.6);
     --glow-secondary: 0 0 15px rgba(139, 92, 246, 0.6);
     --glow-accent: 0 0 15px rgba(245, 158, 11, 0.6);
+
+    --font-heading: 'Orbitron', sans-serif;
+    --font-body: 'Rajdhani', sans-serif;
 }
